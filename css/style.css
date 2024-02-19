@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-family: "Manrope", sans-serif;
+    --white: #ffffff;
+}
+
+.login_left {
+    /* height: 100vh; */
+    background-color: #0E0F19;
+    padding: 50px 80px 50px 80px;
+}
+
+.login_right {
+    /* height: 100vh; */
+    background-image: url('../images/loginimg_right.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.left-inner {
+    margin-top: 80px;
+}
+
+.login-left-title {
+    color: #F8FAFC;
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 130%;
+}
+
+.login-left-para {
+    color: #94A3B8;
+    font-family: var(--font-family);
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+}
+
+.login-email {
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #171928;
+}
+
+.email-icon {
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #171928;
+    border-right: none;
+    padding: 20px 14px 20px 14px;
+}
+
+.email-icon-right {
+    border-radius: 4px 0px 0px 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #171928;
+    padding: 20px 14px 20px 14px;
+}
+
+.email {
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background: #171928;
+}
+
+.email:focus {
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: #171928;
+    box-shadow: none !important;
+    color: white;
+}
+
+input::placeholder {
+    color: #94A3B8 !important;
+    /* Change this to your desired color */
+}
+
+.sign-in {
+    display: flex;
+    padding: 24px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+    border-radius: 7px;
+    border: none;
+    background: #012D60;
+
+    color: #FFF;
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+.custom-checkbox {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me {
+    color: #FFF;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.forgot-password {
+    margin-left: auto;
+    color: #41D7FD;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+
+.login-checkbox {
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    border: 1px solid #E7E7E7;
+    background: none !important;
+}
+
+.login-social-text {
+    margin-top: 62px;
+    margin-bottom: 24px;
+    color: #94A3B8;
+    text-align: center;
+    font-family: Manrope;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.3px;
+}
+
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+/* Customize the button styling */
+.custom-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 20px 8px;
+    flex: 1 0 0;
+    border: none;
+    border-radius: 4px;
+    background: #121A26;
+}
+
+.custom-button i {
+    margin-right: 8px;
+}
+
+.login-last-para{
+    color: #94A3B8;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 150%;
+        /* 36px */
+        letter-spacing: 0.3px;
+}
+.login-last-para-link{
+    color: #41D7FD;
+        font-family: Manrope;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 150%;
+        letter-spacing: 0.2px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .login_left {
+            padding: 15px 30px 15px 30px;
+        }
+}
