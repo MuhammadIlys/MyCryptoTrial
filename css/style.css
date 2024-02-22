@@ -13,6 +13,9 @@
 
 body {
     background-color: var(--base-color);
+    background-image: url('../images/bg_two.png');
+    background-position: 212px 1991px;
+    background-repeat: no-repeat;
 }
 
 .wrapper {
@@ -20,6 +23,16 @@ body {
     padding-right: 120px;
 }
 
+/* ///// BACKGROUNDS */
+#forbgtwo {
+    background-image: url('../images/mid-bg.png');
+    background-repeat: no-repeat;
+    background-position: -275px -153px;
+}
+
+/* #forbg {
+    background-image: url('../images/bg_two.png');
+} */
 .login_left {
     /* height: 100vh; */
     background-color: var(--base-color);
@@ -709,31 +722,31 @@ input::placeholder {
     /* 42.9px */
 }
 
-#newsletter-email {
+.newsletter-email {
     margin: 0 auto !important;
     background: rgba(47, 50, 65, 0.50) !important;
     padding: 8px 5px;
 }
 
-#newsletter-email input {
+.newsletter-email input {
     border-radius: 4px;
     border: 1px solid rgba(47, 50, 65, 0.0) !important;
     background: rgba(47, 50, 65, 0.0) !important;
     padding: 8px 32px;
 }
 
-#newsletter-email input:focus {
+.newsletter-email input:focus {
     border: none;
     outline: none;
     box-shadow: none;
 }
 
-#newsletter-email input {
+.ewsletter-email input {
     color: #fff !important;
     /* Change this to your desired color */
 }
 
-#newsletter-email button {
+.newsletter-email button {
     display: flex;
     padding: 16px 32px;
     justify-content: center;
@@ -743,9 +756,7 @@ input::placeholder {
     background: #41D7FD;
 }
 
-#forbg {
-    /* background-image: url(''); */
-}
+
 
 
 /* ///ACCORDION  FAQ // */
@@ -862,7 +873,7 @@ input::placeholder {
     border-radius: 4px;
     border: 1px solid rgba(47, 50, 65, 0.0) !important;
     background: #2F324100 !important;
-    padding: 8px 10px;
+    padding: 8px 6px;
 }
 
 #footer-email input:focus {
@@ -900,6 +911,10 @@ input::placeholder {
     text-decoration: none;
 }
 
+.text-footer {
+    color: #A5ADCF;
+}
+
 @media only screen and (max-width: 600px) {
     .wrapper {
         padding-left: 20px;
@@ -908,6 +923,18 @@ input::placeholder {
 
     #header {
         text-align: center;
+    }
+
+    .header-title {
+        font-size: 50px;
+        line-height: 61.5px;
+        margin-top: -75px;
+    }
+
+    .header-description {
+        line-height: 33px;
+        margin-top: 43px;
+        margin-bottom: 41px;
     }
 
     .header-button {
@@ -924,13 +951,89 @@ input::placeholder {
         padding: 0;
     }
 
+    .reduce-inner-column1 {
+        padding: 50px;
+        border-radius: 20px 20px;
+    }
+
+    .reduce-title {
+        font-size: 50px;
+    }
+
+    .reduct-description {
+        margin-top: 40px;
+    }
+
+    .reduce-inner-column2 {
+        padding: 0px 30px 90px 30px;
+        border-radius: 20px;
+    }
+
     #working-inner {
         flex-direction: column;
         margin-left: 0px;
+    }
+
+    .work-title {
+        font-size: 50px;
+    }
+
+    .work-description {
+        margin-top: 27px;
     }
 
     .management-inner {
         flex-direction: column;
     }
 
+    .management-title {
+        font-size: 50px;
+    }
+
+    .management-description {
+        margin-top: 27px;
+    }
+
+    .testimonial-title {
+        font-size: 30px;
+    }
+
+    .faq-title {
+        font-size: 52px;
+        line-height: 64px;
+    }
+
+    .footer-common {
+        text-align: center;
+    }
+
+    .footer-social {
+        justify-content: center;
+    }
+
+    #footer {
+        padding: 0px;
+    }
+
+    .newsletter-email-mob {
+        padding: 0px;
+    }
+
+    #rewards {
+        padding: 25px;
+    }
+
+    .newsletter-email-button {
+        display: flex;
+        padding: 13px 22px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        border-radius: 4px;
+        background: #41D7FD;
+    }
+
+    #footer-email {
+        padding: 10px !important;
+    }
 }

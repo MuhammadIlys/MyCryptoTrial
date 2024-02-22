@@ -81,7 +81,7 @@
                         step-by-step video instructions for managing their assets.</p>
                     <button class="header-button">Get Started</button>
                 </div>
-                <div class="col-md-5">
+                <div class="col-md-5 mt-5 mt-md-0 mt-lg-0">
                     <img src="./images/asdf.png" class="img img-fluid" alt="">
                 </div>
             </div>
@@ -96,12 +96,22 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row mt-5 mt-md-0 mt-lg-0">
                 <div class="col-md-12 reduce-inner-column2">
                     <div class="reduce-inner-col">
                         <div class="card mt-3 mb-3" id="reduce-card">
-                            <div class="card-header" id="reduce-card-header"></div>
-                            <div class="card-body reduce-inner-col"></div>
+                            <div class="card-header" id="reduce-card-header">
+                                <div class="d-flex flex-row justify-content-start gap-2 ms-4">
+                                    <img src="./images/ellipse1.png" class="img img-fluid" alt="">
+                                    <img src="./images/ellipse2.png" class="img img-fluid" alt="">
+                                    <img src="./images/ellipse3.png" class="img img-fluid" alt="">
+                                </div>
+                            </div>
+                            <div class="card-body reduce-inner-col">
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <img src="./images/playpause.png" class="img img-fluid" alt="">
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -254,22 +264,32 @@
             <section id="rewards" class="ms-3 me-3">
                 <p class="rewards-small">Stay Connected with My Crypto Trail</p>
                 <p class="rewards-title">New users: Earn up to $80 in crypto rewards</p>
-                <div class="input-group w-50" id="newsletter-email">
+                <div class="input-group w-50 d-none d-md-flex newsletter-email" id="">
                     <input type="text" class="form-control" placeholder="Enter your information">
                     <div class="input-group-append">
                         <button class="btn btn-primary" type="button">Get Started</button>
                     </div>
+                </div>
+
+                <div class="d-sm-block d-md-none d-lg-none">
+                    <div
+                        class="d-flex justify-content-center align-items-center d-sm-block d-md-none d-lg-none newsletter-email ">
+                        <input type="text" class="form-control newsletter-email-mob"
+                            placeholder="Enter your information">
+                    </div>
+                    <button class="btn btn-primary newsletter-email-button me-auto ms-auto mt-3" type="button">Get
+                        Started</button>
                 </div>
             </section>
 
         </div>
 
 
-        <div class="forbgtwo">
+        <div id="forbgtwo">
             <section id="faq">
 
-                <h5 class="faq-title">Frequently Asked Questions</h5>
-                <p class="faq-description">Uncover Insights with My Crypto Trail's Frequently Asked Questions</p>
+                <h5 class="faq-title">Frequently Asked<br>Questions</h5>
+                <p class="faq-description mt-4">Uncover Insights with My Crypto Trail's Frequently Asked Questions</p>
 
                 <div class="accordion" id="accordionExample">
                     <div class="accordion-item">
@@ -341,7 +361,7 @@
 
             </section>
 
-            <section id="footer" class="sd">
+            <section id="footer">
                 <div class="row">
                     <div class="col-md-4 footer-common footer-one">
                         <img src="./images/footer-logo.png" class="img img-fluid" alt="" srcset="">
@@ -371,7 +391,7 @@
                     <div class="col-md-4 footer-common footer-three">
                         <h5 class="footer-right-title">For support</h5>
                         <p class="footer-para">email us at support@mycryptotrail.com</p>
-                        <div class="input-group w-100" id="footer-email">
+                        <div class="input-group w-100 m-0 p-0" id="footer-email">
                             <input type="text" class="form-control" placeholder="Enter your email address">
                             <div class="input-group-append">
                                 <button class="btn btn-primary" type="button">Get Started</button>
@@ -379,11 +399,11 @@
                         </div>
                     </div>
                 </div>
-                <hr style="color: white;" class="mt-5 mb-3">
+                <hr style="color: #A5ADCF;" class="mt-5 mb-4">
                 <div class="row">
-                    <div class="col-md-12 d-flex flex-row justify-content-between mb-3">
-                        <span class="text-white">© 2023 My Crypto Trail.</span>
-                        <span class="text-white">All rights reserved</span>
+                    <div class="col-md-12 d-flex flex-row justify-content-between mb-4">
+                        <span class="text-footer">© 2023 My Crypto Trail.</span>
+                        <span class="text-footer">All rights reserved</span>
                     </div>
                 </div>
             </section>
