@@ -33,12 +33,19 @@ body {
 /* #forbg {
     background-image: url('../images/bg_two.png');
 } */
+
+.navbar-toggler-icon{
+    color: white !important;
+}
 .login_left {
     /* height: 100vh; */
     background-color: var(--base-color);
     padding: 50px 80px 50px 80px;
 }
 
+#splide_slider_list{
+    margin-bottom: 50px !important;
+}
 .login_right {
     /* height: 100vh; */
     background-image: url('../images/loginimg_right.png');
@@ -634,7 +641,7 @@ input::placeholder {
 }
 
 .testimonial-inner-common {
-    display: flex;
+    width: 90% !important;
     flex-direction: column;
     padding: 40px 38px;
     align-items: flex-start;
