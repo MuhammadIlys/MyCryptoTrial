@@ -1,0 +1,596 @@
+<!DOCTYPE html>
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="./assets/"
+  data-template="vertical-menu-template-free">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+  <title>Trail | My Cold Wallet</title>
+
+  <meta name="description" content="" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon.ico" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/vendor/fonts/boxicons.css" />
+
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="./assets/vendor/css/core.css" class="template-customizer-core-css" />
+  <link rel="stylesheet" href="./assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+  <link rel="stylesheet" href="./assets/css/demo.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/mytrials.css" />
+
+  <!-- Vendors CSS -->
+  <link rel="stylesheet" href="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+  <link rel="stylesheet" href="./assets/vendor/libs/apex-charts/apex-charts.css" />
+  <!-- Page CSS -->
+  <!-- Helpers -->
+  <script src="./assets/vendor/js/helpers.js"></script>
+  <script src="./assets/js/config.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- //SELECT COUNTRY -->
+  <link rel="stylesheet" href="./phone-number-validation-master/build/css/demo.css">
+  <link rel="stylesheet" href="./phone-number-validation-master/build/css/intlTelInput.css">
+
+</head>
+
+<body>
+  <!-- Layout wrapper -->
+  <div class="layout-wrapper layout-content-navbar">
+    <div class="layout-container">
+      <!-- Menu -->
+      <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme pt-3">
+        <div class="app-brand demo d-flex flex-column">
+          <div>
+            <a href="index.html" class="app-brand-link">
+              <span class="app-brand-logo demo"> <img src="./images/footer-logo.png" alt="" srcset=""></span>
+            </a>
+          </div>
+          <div>
+            <!-- <p class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</p> -->
+          </div>
+
+          <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+            <i class="bx bx-chevron-left bx-sm align-middle"></i>
+          </a>
+        </div>
+
+        <!-- <div class="menu-inner-shadow"></div> -->
+
+        <ul class="menu-inner py-1">
+          <!-- Dashboard -->
+          <li class="menu-item ">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">Dashboard</div>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">My Profile</div>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">Trailblazers</div>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">My Trails</div>
+            </a>
+          </li>
+
+          <li class="menu-item active">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">My Cold Wallete</div>
+            </a>
+          </li>
+
+
+          <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class="menu-icon tf-icons bx bx-dock-top"></i>
+              <div data-i18n="Account Settings">My Wallet Stored</div>
+            </a>
+            <ul class="menu-sub">
+              <li class="menu-item">
+                <a href="pages-account-settings-account.html" class="menu-link">
+                  <div data-i18n="Account">Plans & Pricing</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">Plans & Pricing </div>
+            </a>
+          </li>
+
+        </ul>
+
+        <img src="./images/sidebar-img.png" alt="" srcset="" class="img-fluid sidebar-img">
+      </aside>
+      <!-- / Menu -->
+
+
+      <!-- Layout container -->
+      <div class="layout-page">
+        <!-- Navbar -->
+        <div class="w-100 p-2" id="parent">
+          <nav class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
+            id="layout-navbar">
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+              <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                <i class="bx bx-menu bx-sm"></i>
+              </a>
+            </div>
+            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+              <div class="navbar-nav align-items-center">
+                <div class="nav-item d-flex align-items-center">
+                  <h5 class="nav-title">My Trails</h5>
+                </div>
+              </div>
+
+              <ul class="navbar-nav flex-row align-items-center ms-auto me-3">
+                <i class="fa-regular fa-bell me-2" id="bell-icon" style="color: #ffffff;"></i>
+                <sup><img src="./assets/img/icons/noti.png" class="img img-fluid me-3" alt=""></sup>
+
+                <li>
+                  <div class="btn-group btn-group-sm ms-3 me-2 gap-2" id="new-video" role="group"
+                    aria-label="Example group">
+
+                    <a class="new-trail d-none d-md-flex d-lg-flex" style="display: flex;
+                  padding: 11px 16px;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 10px;border-radius: 4px;
+                  background: #012D60 !important;
+                  color: white;
+                  ">
+                      <span class="me-2"><img src="./assets/img/play.png" class="img img-fluid my-auto me-2"
+                          alt="">Record a
+                        Video</span>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+        <div class="container-fluid" id="nav-container-main">
+          <div class="row">
+            <div class="col-md-12 d-flex justify-content-between">
+
+            </div>
+          </div>
+
+
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="wrapper">
+              <div class="container wallet-container">
+                <div class="row gap-3">
+                  <div class="col-md-5 wallet4-left">
+
+                    <span class="float-end">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                        <g clip-path="url(#clip0_282_5968)">
+                          <path
+                            d="M2.97036 0C12.3588 9.38846 12.3588 24.6115 2.97036 34L0 31.0296C7.74415 23.2855 7.74415 10.7145 0 2.97036L2.97036 0Z"
+                            fill="url(#paint0_linear_282_5968)" />
+                          <path
+                            d="M0 30.9769C9.38846 21.5884 24.6115 21.5884 34 30.9769L31.0296 34.0003C23.2855 26.2561 10.7145 26.2561 2.97036 34.0003L0 30.9769Z"
+                            fill="url(#paint1_linear_282_5968)" />
+                          <path
+                            d="M34 2.97036C24.6115 12.3588 9.38846 12.3588 0 2.97036L2.97036 0C10.7145 7.74415 23.2855 7.74415 31.0296 0L34 2.97036Z"
+                            fill="url(#paint2_linear_282_5968)" />
+                          <path
+                            d="M31.0296 34C21.6412 24.6115 21.6412 9.38846 31.0296 0L34 2.97036C26.2558 10.7145 26.2558 23.2855 34 31.0296L31.0296 34Z"
+                            fill="url(#paint3_linear_282_5968)" />
+                          <path
+                            d="M0 30.977C2.49298 28.5371 5.35725 26.6806 8.4337 25.5137C7.26677 28.5901 5.46334 31.5074 2.97036 34.0004L0 30.977Z"
+                            fill="#62C7B5" />
+                          <path
+                            d="M8.4337 8.4337C5.35725 7.26677 2.43994 5.46334 0 2.97036L2.97036 0C5.46334 2.43994 7.26677 5.35725 8.4337 8.4337Z"
+                            fill="#62C7B5" />
+                          <path
+                            d="M8.4337 25.5137C7.26677 28.5901 5.46334 31.5074 2.97036 34.0004L0 31.0301C2.49298 28.5371 5.35725 26.6806 8.4337 25.5137Z"
+                            fill="#62C7B5" />
+                          <path
+                            d="M34.0001 30.9767L31.0297 34.0001C28.5368 31.5071 26.7333 28.6428 25.5664 25.5664C28.6428 26.6803 31.5071 28.5368 34.0001 30.9767Z"
+                            fill="#62C7B5" />
+                          <path
+                            d="M2.97036 0C5.46334 2.43994 7.26677 5.35725 8.4337 8.4337C5.35725 7.26677 2.43994 5.46334 0 2.97036L2.97036 0Z"
+                            fill="#62C7B5" />
+                          <path
+                            d="M34.0001 2.97036C31.5071 5.46334 28.6428 7.26677 25.5664 8.4337C26.7333 5.35725 28.5368 2.43994 31.0297 0L34.0001 2.97036Z"
+                            fill="#62C7B5" />
+                          <path
+                            d="M34.0001 2.97036C31.5071 5.46334 28.6428 7.26677 25.5664 8.4337C26.7333 5.35725 28.5368 2.43994 31.0297 0L34.0001 2.97036Z"
+                            fill="#62C7B5" />
+                          <path
+                            d="M34.0001 30.9767L31.0297 34.0001C28.5368 31.5071 26.7333 28.6428 25.5664 25.5664C28.6428 26.6803 31.5071 28.5368 34.0001 30.9767Z"
+                            fill="#62C7B5" />
+                        </g>
+                        <defs>
+                          <linearGradient id="paint0_linear_282_5968" x1="5.00585" y1="-0.0967488" x2="5.00585"
+                            y2="34.0858" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.1731" stop-color="#388B7C" />
+                            <stop offset="0.433" stop-color="#65C4B3" />
+                            <stop offset="1" stop-color="#83CEC4" />
+                          </linearGradient>
+                          <linearGradient id="paint1_linear_282_5968" x1="-0.0873604" y1="28.9679" x2="33.795"
+                            y2="28.9679" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.1731" stop-color="#388B7C" />
+                            <stop offset="0.433" stop-color="#65C4B3" />
+                            <stop offset="1" stop-color="#83CEC4" />
+                          </linearGradient>
+                          <linearGradient id="paint2_linear_282_5968" x1="34" y1="5.00585" x2="0.267596" y2="5.00585"
+                            gradientUnits="userSpaceOnUse">
+                            <stop offset="0.1731" stop-color="#388B7C" />
+                            <stop offset="0.433" stop-color="#65C4B3" />
+                            <stop offset="1" stop-color="#83CEC4" />
+                          </linearGradient>
+                          <linearGradient id="paint3_linear_282_5968" x1="28.9941" y1="33.9349" x2="28.9941"
+                            y2="0.190476" gradientUnits="userSpaceOnUse">
+                            <stop offset="0.1731" stop-color="#388B7C" />
+                            <stop offset="0.433" stop-color="#65C4B3" />
+                            <stop offset="1" stop-color="#83CEC4" />
+                          </linearGradient>
+                          <clipPath id="clip0_282_5968">
+                            <rect width="34" height="34" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                    </span>
+                    <p class="wallet-subtitle">Guarda Balance
+                      <sup><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18"
+                          fill="none">
+                          <path
+                            d="M9 16.5C13.125 16.5 16.5 13.125 16.5 9C16.5 4.875 13.125 1.5 9 1.5C4.875 1.5 1.5 4.875 1.5 9C1.5 13.125 4.875 16.5 9 16.5Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          <path d="M9 6V9.75" stroke="white" stroke-width="1.5" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                          <path d="M8.99609 12H9.00283" stroke="white" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" />
+                        </svg>
+                      </sup>
+                    </p>
+
+                    <p class="wallet-title mt-2">$12,456,315
+                      <sup>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18" fill="none">
+                          <path
+                            d="M11.6849 9.00043C11.6849 10.4854 10.4849 11.6854 8.99994 11.6854C7.51494 11.6854 6.31494 10.4854 6.31494 9.00043C6.31494 7.51543 7.51494 6.31543 8.99994 6.31543C10.4849 6.31543 11.6849 7.51543 11.6849 9.00043Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                          <path
+                            d="M8.99988 15.2025C11.6474 15.2025 14.1149 13.6425 15.8324 10.9425C16.5074 9.88504 16.5074 8.10754 15.8324 7.05004C14.1149 4.35004 11.6474 2.79004 8.99988 2.79004C6.35238 2.79004 3.88488 4.35004 2.16738 7.05004C1.49238 8.10754 1.49238 9.88504 2.16738 10.9425C3.88488 13.6425 6.35238 15.2025 8.99988 15.2025Z"
+                            stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                      </sup>
+                    </p>
+
+                    <div class="d-flex flex-row gap-2 mb-4">
+                      <div class="arrow-div">
+                        <span class="m-0 increase-button">
+                          <span class="arrow-up">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 17 17"
+                              fill="none">
+                              <path d="M11.4321 8.96514L10.3213 4.81926L6.17537 5.93014" stroke="#31B099"
+                                stroke-width="1.5" stroke-miterlimit="10" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                              <path d="M6.07106 12.1802L10.2786 4.89258" stroke="#31B099" stroke-width="1.5"
+                                stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                          </span>
+                          <span>+3.1%</span>
+
+                        </span>
+                      </div>
+                      <div class="my-auto">
+                        <span class="arrow-para">Increase this Month</span>
+                      </div>
+                    </div>
+
+                    <div>
+                      <a href="" class="button wallet4-button d-flex justify-content-center w-100">
+                        <span class="me-3">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none">
+                            <path d="M2 8.5H14.5" stroke="#F7931A" stroke-width="1.5" stroke-miterlimit="10"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M6 16.5H8" stroke="#F7931A" stroke-width="1.5" stroke-miterlimit="10"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M10.5 16.5H14.5" stroke="#F7931A" stroke-width="1.5" stroke-miterlimit="10"
+                              stroke-linecap="round" stroke-linejoin="round" />
+                            <path
+                              d="M22 14.03V16.11C22 19.62 21.11 20.5 17.56 20.5H6.44C2.89 20.5 2 19.62 2 16.11V7.89C2 4.38 2.89 3.5 6.44 3.5H14.5"
+                              stroke="#F7931A" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+                            <path d="M20 9.5V3.5L22 5.5" stroke="#F7931A" stroke-width="1.5" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                            <path d="M20 3.5L18 5.5" stroke="#F7931A" stroke-width="1.5" stroke-linecap="round"
+                              stroke-linejoin="round" />
+                          </svg>
+                        </span>
+                        Best Practices For Withdrawals
+                      </a>
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 wallet-right">
+                    <p class="wallet-subtitle"> How to get into the wallet Arculus </p>
+                    <p class="wallet-description">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia modi consectetur quisquam
+                      accusantium laudantium nesciunt, itaque tenetur! Nisi doloribus, molestias minima assumenda
+                      aperiam rerum reiciendis eius cum dignissimos doloremque tempore quae deleniti voluptates debitis
+                      labore, obcaecati mollitia vero eos non minus iste? Placeat ratione dolorum, quod temporibus fugit
+                      incidunt numquam.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="row mt-4">
+                  <div
+                    class="col-md-12 p-2 balance-analytics-parent d-flex flex-column justify-content-center align-items-center">
+                    <span>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" fill="none">
+                        <path
+                          d="M32.0002 5.33301C17.2802 5.33301 5.3335 17.2797 5.3335 31.9997C5.3335 46.7197 17.2802 58.6663 32.0002 58.6663C46.7202 58.6663 58.6668 46.7197 58.6668 31.9997C58.6668 17.2797 46.7202 5.33301 32.0002 5.33301ZM39.0935 36.613L35.6802 38.5863L32.2668 40.5597C27.8668 43.093 24.2668 41.013 24.2668 35.9463V31.9997V28.053C24.2668 22.9597 27.8668 20.9063 32.2668 23.4397L35.6802 25.413L39.0935 27.3863C43.4935 29.9197 43.4935 34.0797 39.0935 36.613Z"
+                          fill="white" />
+                      </svg>
+                    </span>
+                    <h5 class="analytics-subtitle text-center">
+                      Recorded Video
+                    </h5>
+                  </div>
+                </div>
+
+                <div class="row mt-4 gap-2 justify-content-between">
+
+                  <div class="col-md-3 d-flex flex-row  border-1 steps align-items-center step-common">
+                    <span class="steps-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 32 32" fill="none">
+                        <path
+                          d="M23.1733 14.3337C23.1733 14.0403 22.8533 13.667 22.5066 13.667H19.9199H19.3333V15.0003H22.5066C22.8666 15.0003 23.1733 14.707 23.1733 14.3337Z"
+                          fill="white" />
+                        <path
+                          d="M23.0933 17H22.4933H19.3333V18.3333H19.9199H23.0933C23.5866 18.3333 23.9999 18.0267 23.9999 17.6667C23.9999 17.3067 23.5866 17 23.0933 17Z"
+                          fill="white" />
+                        <path
+                          d="M23.8001 4.5332H8.20008C5.14675 4.5332 2.66675 6.99987 2.66675 10.0532V21.9465C2.66675 24.9999 5.14675 27.4665 8.20008 27.4665H23.8001C26.8534 27.4665 29.3334 24.9999 29.3334 21.9465V10.0532C29.3334 6.99987 26.8534 4.5332 23.8001 4.5332ZM12.3334 16.9999H7.00008C6.45341 16.9999 6.00008 16.5465 6.00008 15.9999C6.00008 15.4532 6.45341 14.9999 7.00008 14.9999H12.3334C12.8801 14.9999 13.3334 15.4532 13.3334 15.9999C13.3334 16.5465 12.8801 16.9999 12.3334 16.9999ZM23.0934 20.3332H21.6801V20.9999C21.6801 21.5465 21.2267 21.9999 20.6801 21.9999C20.1334 21.9999 19.6801 21.5465 19.6801 20.9999V20.3332H18.3334H17.0001C16.4534 20.3332 16.0001 19.8799 16.0001 19.3332C16.0001 18.7865 16.4534 18.3332 17.0001 18.3332H17.3334V15.9999V13.6665H17.0001C16.4534 13.6665 16.0001 13.2132 16.0001 12.6665C16.0001 12.1199 16.4534 11.6665 17.0001 11.6665H18.3334H19.6801V10.9999C19.6801 10.4532 20.1334 9.99987 20.6801 9.99987C21.2267 9.99987 21.6801 10.4532 21.6801 10.9999V11.6665H22.4934C23.9201 11.6665 25.1601 12.9065 25.1601 14.3332C25.1601 14.7732 25.0401 15.1865 24.8534 15.5599C25.5467 16.0532 26.0001 16.8132 26.0001 17.6665C26.0001 19.1332 24.6934 20.3332 23.0934 20.3332Z"
+                          fill="white" />
+                      </svg></span>
+                    <div class="d-flex flex-row gap-2 ">
+
+                      <div>
+                        <span class="badge rounded-pill step-badge text-capitalize">Step 1</span>
+                        <h5 class="step-title">Click on Wallet</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 d-flex flex-row  border-1 steps align-items-center step-common">
+                    <span class="steps-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 32 32" fill="none">
+                        <path
+                          d="M23.1733 14.3337C23.1733 14.0403 22.8533 13.667 22.5066 13.667H19.9199H19.3333V15.0003H22.5066C22.8666 15.0003 23.1733 14.707 23.1733 14.3337Z"
+                          fill="white" />
+                        <path
+                          d="M23.0933 17H22.4933H19.3333V18.3333H19.9199H23.0933C23.5866 18.3333 23.9999 18.0267 23.9999 17.6667C23.9999 17.3067 23.5866 17 23.0933 17Z"
+                          fill="white" />
+                        <path
+                          d="M23.8001 4.5332H8.20008C5.14675 4.5332 2.66675 6.99987 2.66675 10.0532V21.9465C2.66675 24.9999 5.14675 27.4665 8.20008 27.4665H23.8001C26.8534 27.4665 29.3334 24.9999 29.3334 21.9465V10.0532C29.3334 6.99987 26.8534 4.5332 23.8001 4.5332ZM12.3334 16.9999H7.00008C6.45341 16.9999 6.00008 16.5465 6.00008 15.9999C6.00008 15.4532 6.45341 14.9999 7.00008 14.9999H12.3334C12.8801 14.9999 13.3334 15.4532 13.3334 15.9999C13.3334 16.5465 12.8801 16.9999 12.3334 16.9999ZM23.0934 20.3332H21.6801V20.9999C21.6801 21.5465 21.2267 21.9999 20.6801 21.9999C20.1334 21.9999 19.6801 21.5465 19.6801 20.9999V20.3332H18.3334H17.0001C16.4534 20.3332 16.0001 19.8799 16.0001 19.3332C16.0001 18.7865 16.4534 18.3332 17.0001 18.3332H17.3334V15.9999V13.6665H17.0001C16.4534 13.6665 16.0001 13.2132 16.0001 12.6665C16.0001 12.1199 16.4534 11.6665 17.0001 11.6665H18.3334H19.6801V10.9999C19.6801 10.4532 20.1334 9.99987 20.6801 9.99987C21.2267 9.99987 21.6801 10.4532 21.6801 10.9999V11.6665H22.4934C23.9201 11.6665 25.1601 12.9065 25.1601 14.3332C25.1601 14.7732 25.0401 15.1865 24.8534 15.5599C25.5467 16.0532 26.0001 16.8132 26.0001 17.6665C26.0001 19.1332 24.6934 20.3332 23.0934 20.3332Z"
+                          fill="white" />
+                      </svg></span>
+                    <div class="d-flex flex-row gap-2 ">
+
+                      <div>
+                        <span class="badge rounded-pill step-badge text-capitalize">Step 2</span>
+                        <h5 class="step-title">Click on the Coin</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 d-flex flex-row  border-1 steps align-items-center step-common">
+                    <span class="steps-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 32 32" fill="none">
+                        <path
+                          d="M23.1733 14.3337C23.1733 14.0403 22.8533 13.667 22.5066 13.667H19.9199H19.3333V15.0003H22.5066C22.8666 15.0003 23.1733 14.707 23.1733 14.3337Z"
+                          fill="white" />
+                        <path
+                          d="M23.0933 17H22.4933H19.3333V18.3333H19.9199H23.0933C23.5866 18.3333 23.9999 18.0267 23.9999 17.6667C23.9999 17.3067 23.5866 17 23.0933 17Z"
+                          fill="white" />
+                        <path
+                          d="M23.8001 4.5332H8.20008C5.14675 4.5332 2.66675 6.99987 2.66675 10.0532V21.9465C2.66675 24.9999 5.14675 27.4665 8.20008 27.4665H23.8001C26.8534 27.4665 29.3334 24.9999 29.3334 21.9465V10.0532C29.3334 6.99987 26.8534 4.5332 23.8001 4.5332ZM12.3334 16.9999H7.00008C6.45341 16.9999 6.00008 16.5465 6.00008 15.9999C6.00008 15.4532 6.45341 14.9999 7.00008 14.9999H12.3334C12.8801 14.9999 13.3334 15.4532 13.3334 15.9999C13.3334 16.5465 12.8801 16.9999 12.3334 16.9999ZM23.0934 20.3332H21.6801V20.9999C21.6801 21.5465 21.2267 21.9999 20.6801 21.9999C20.1334 21.9999 19.6801 21.5465 19.6801 20.9999V20.3332H18.3334H17.0001C16.4534 20.3332 16.0001 19.8799 16.0001 19.3332C16.0001 18.7865 16.4534 18.3332 17.0001 18.3332H17.3334V15.9999V13.6665H17.0001C16.4534 13.6665 16.0001 13.2132 16.0001 12.6665C16.0001 12.1199 16.4534 11.6665 17.0001 11.6665H18.3334H19.6801V10.9999C19.6801 10.4532 20.1334 9.99987 20.6801 9.99987C21.2267 9.99987 21.6801 10.4532 21.6801 10.9999V11.6665H22.4934C23.9201 11.6665 25.1601 12.9065 25.1601 14.3332C25.1601 14.7732 25.0401 15.1865 24.8534 15.5599C25.5467 16.0532 26.0001 16.8132 26.0001 17.6665C26.0001 19.1332 24.6934 20.3332 23.0934 20.3332Z"
+                          fill="white" />
+                      </svg></span>
+                    <div class="d-flex flex-row gap-2 ">
+
+                      <div>
+                        <span class="badge rounded-pill step-badge text-capitalize">Step 3</span>
+                        <h5 class="step-title">Click on Receive</h5>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col-md-3 d-flex flex-row  border-1 steps align-items-center step-common">
+                    <span class="steps-icon"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32"
+                        viewBox="0 0 32 32" fill="none">
+                        <path
+                          d="M23.1733 14.3337C23.1733 14.0403 22.8533 13.667 22.5066 13.667H19.9199H19.3333V15.0003H22.5066C22.8666 15.0003 23.1733 14.707 23.1733 14.3337Z"
+                          fill="white" />
+                        <path
+                          d="M23.0933 17H22.4933H19.3333V18.3333H19.9199H23.0933C23.5866 18.3333 23.9999 18.0267 23.9999 17.6667C23.9999 17.3067 23.5866 17 23.0933 17Z"
+                          fill="white" />
+                        <path
+                          d="M23.8001 4.5332H8.20008C5.14675 4.5332 2.66675 6.99987 2.66675 10.0532V21.9465C2.66675 24.9999 5.14675 27.4665 8.20008 27.4665H23.8001C26.8534 27.4665 29.3334 24.9999 29.3334 21.9465V10.0532C29.3334 6.99987 26.8534 4.5332 23.8001 4.5332ZM12.3334 16.9999H7.00008C6.45341 16.9999 6.00008 16.5465 6.00008 15.9999C6.00008 15.4532 6.45341 14.9999 7.00008 14.9999H12.3334C12.8801 14.9999 13.3334 15.4532 13.3334 15.9999C13.3334 16.5465 12.8801 16.9999 12.3334 16.9999ZM23.0934 20.3332H21.6801V20.9999C21.6801 21.5465 21.2267 21.9999 20.6801 21.9999C20.1334 21.9999 19.6801 21.5465 19.6801 20.9999V20.3332H18.3334H17.0001C16.4534 20.3332 16.0001 19.8799 16.0001 19.3332C16.0001 18.7865 16.4534 18.3332 17.0001 18.3332H17.3334V15.9999V13.6665H17.0001C16.4534 13.6665 16.0001 13.2132 16.0001 12.6665C16.0001 12.1199 16.4534 11.6665 17.0001 11.6665H18.3334H19.6801V10.9999C19.6801 10.4532 20.1334 9.99987 20.6801 9.99987C21.2267 9.99987 21.6801 10.4532 21.6801 10.9999V11.6665H22.4934C23.9201 11.6665 25.1601 12.9065 25.1601 14.3332C25.1601 14.7732 25.0401 15.1865 24.8534 15.5599C25.5467 16.0532 26.0001 16.8132 26.0001 17.6665C26.0001 19.1332 24.6934 20.3332 23.0934 20.3332Z"
+                          fill="white" />
+                      </svg></span>
+                    <div class="d-flex flex-row gap-2 ">
+
+                      <div>
+                        <span class="badge rounded-pill step-badge text-capitalize">Step 4</span>
+                        <h5 class="step-title">let’s Send</h5>
+                      </div>
+                    </div>
+                  </div>
+
+
+
+
+
+                  <!-- 
+                    <div class="col-md-3 d-flex flex-row  border-1 steps align-items-center step-common">
+                      <div class="d-flex flex-row justify-content-center gap-2 align-items-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                          <path
+                            d="M23.1733 14.3337C23.1733 14.0403 22.8533 13.667 22.5066 13.667H19.9199H19.3333V15.0003H22.5066C22.8666 15.0003 23.1733 14.707 23.1733 14.3337Z"
+                            fill="white" />
+                          <path
+                            d="M23.0933 17H22.4933H19.3333V18.3333H19.9199H23.0933C23.5866 18.3333 23.9999 18.0267 23.9999 17.6667C23.9999 17.3067 23.5866 17 23.0933 17Z"
+                            fill="white" />
+                          <path
+                            d="M23.8001 4.5332H8.20008C5.14675 4.5332 2.66675 6.99987 2.66675 10.0532V21.9465C2.66675 24.9999 5.14675 27.4665 8.20008 27.4665H23.8001C26.8534 27.4665 29.3334 24.9999 29.3334 21.9465V10.0532C29.3334 6.99987 26.8534 4.5332 23.8001 4.5332ZM12.3334 16.9999H7.00008C6.45341 16.9999 6.00008 16.5465 6.00008 15.9999C6.00008 15.4532 6.45341 14.9999 7.00008 14.9999H12.3334C12.8801 14.9999 13.3334 15.4532 13.3334 15.9999C13.3334 16.5465 12.8801 16.9999 12.3334 16.9999ZM23.0934 20.3332H21.6801V20.9999C21.6801 21.5465 21.2267 21.9999 20.6801 21.9999C20.1334 21.9999 19.6801 21.5465 19.6801 20.9999V20.3332H18.3334H17.0001C16.4534 20.3332 16.0001 19.8799 16.0001 19.3332C16.0001 18.7865 16.4534 18.3332 17.0001 18.3332H17.3334V15.9999V13.6665H17.0001C16.4534 13.6665 16.0001 13.2132 16.0001 12.6665C16.0001 12.1199 16.4534 11.6665 17.0001 11.6665H18.3334H19.6801V10.9999C19.6801 10.4532 20.1334 9.99987 20.6801 9.99987C21.2267 9.99987 21.6801 10.4532 21.6801 10.9999V11.6665H22.4934C23.9201 11.6665 25.1601 12.9065 25.1601 14.3332C25.1601 14.7732 25.0401 15.1865 24.8534 15.5599C25.5467 16.0532 26.0001 16.8132 26.0001 17.6665C26.0001 19.1332 24.6934 20.3332 23.0934 20.3332Z"
+                            fill="white" />
+                        </svg>
+
+                        <div class="d-flex flex-column align-items-start'">
+                          <span class="step-count w-75">Step 1</span>
+                          <h5 class="step-title">Click on the Coin</h5>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 d-flex flex-row  border-1 steps align-items-center step-common">
+                      <div class="d-flex flex-row justify-content-center gap-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                          <path
+                            d="M23.1733 14.3337C23.1733 14.0403 22.8533 13.667 22.5066 13.667H19.9199H19.3333V15.0003H22.5066C22.8666 15.0003 23.1733 14.707 23.1733 14.3337Z"
+                            fill="white" />
+                          <path
+                            d="M23.0933 17H22.4933H19.3333V18.3333H19.9199H23.0933C23.5866 18.3333 23.9999 18.0267 23.9999 17.6667C23.9999 17.3067 23.5866 17 23.0933 17Z"
+                            fill="white" />
+                          <path
+                            d="M23.8001 4.5332H8.20008C5.14675 4.5332 2.66675 6.99987 2.66675 10.0532V21.9465C2.66675 24.9999 5.14675 27.4665 8.20008 27.4665H23.8001C26.8534 27.4665 29.3334 24.9999 29.3334 21.9465V10.0532C29.3334 6.99987 26.8534 4.5332 23.8001 4.5332ZM12.3334 16.9999H7.00008C6.45341 16.9999 6.00008 16.5465 6.00008 15.9999C6.00008 15.4532 6.45341 14.9999 7.00008 14.9999H12.3334C12.8801 14.9999 13.3334 15.4532 13.3334 15.9999C13.3334 16.5465 12.8801 16.9999 12.3334 16.9999ZM23.0934 20.3332H21.6801V20.9999C21.6801 21.5465 21.2267 21.9999 20.6801 21.9999C20.1334 21.9999 19.6801 21.5465 19.6801 20.9999V20.3332H18.3334H17.0001C16.4534 20.3332 16.0001 19.8799 16.0001 19.3332C16.0001 18.7865 16.4534 18.3332 17.0001 18.3332H17.3334V15.9999V13.6665H17.0001C16.4534 13.6665 16.0001 13.2132 16.0001 12.6665C16.0001 12.1199 16.4534 11.6665 17.0001 11.6665H18.3334H19.6801V10.9999C19.6801 10.4532 20.1334 9.99987 20.6801 9.99987C21.2267 9.99987 21.6801 10.4532 21.6801 10.9999V11.6665H22.4934C23.9201 11.6665 25.1601 12.9065 25.1601 14.3332C25.1601 14.7732 25.0401 15.1865 24.8534 15.5599C25.5467 16.0532 26.0001 16.8132 26.0001 17.6665C26.0001 19.1332 24.6934 20.3332 23.0934 20.3332Z"
+                            fill="white" />
+                        </svg>
+
+                        <div>
+                          asdf
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-3 d-flex flex-row  border-1 steps align-items-center step-common">
+                      <div class="d-flex flex-row justify-content-center gap-2 ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32" fill="none">
+                          <path
+                            d="M23.1733 14.3337C23.1733 14.0403 22.8533 13.667 22.5066 13.667H19.9199H19.3333V15.0003H22.5066C22.8666 15.0003 23.1733 14.707 23.1733 14.3337Z"
+                            fill="white" />
+                          <path
+                            d="M23.0933 17H22.4933H19.3333V18.3333H19.9199H23.0933C23.5866 18.3333 23.9999 18.0267 23.9999 17.6667C23.9999 17.3067 23.5866 17 23.0933 17Z"
+                            fill="white" />
+                          <path
+                            d="M23.8001 4.5332H8.20008C5.14675 4.5332 2.66675 6.99987 2.66675 10.0532V21.9465C2.66675 24.9999 5.14675 27.4665 8.20008 27.4665H23.8001C26.8534 27.4665 29.3334 24.9999 29.3334 21.9465V10.0532C29.3334 6.99987 26.8534 4.5332 23.8001 4.5332ZM12.3334 16.9999H7.00008C6.45341 16.9999 6.00008 16.5465 6.00008 15.9999C6.00008 15.4532 6.45341 14.9999 7.00008 14.9999H12.3334C12.8801 14.9999 13.3334 15.4532 13.3334 15.9999C13.3334 16.5465 12.8801 16.9999 12.3334 16.9999ZM23.0934 20.3332H21.6801V20.9999C21.6801 21.5465 21.2267 21.9999 20.6801 21.9999C20.1334 21.9999 19.6801 21.5465 19.6801 20.9999V20.3332H18.3334H17.0001C16.4534 20.3332 16.0001 19.8799 16.0001 19.3332C16.0001 18.7865 16.4534 18.3332 17.0001 18.3332H17.3334V15.9999V13.6665H17.0001C16.4534 13.6665 16.0001 13.2132 16.0001 12.6665C16.0001 12.1199 16.4534 11.6665 17.0001 11.6665H18.3334H19.6801V10.9999C19.6801 10.4532 20.1334 9.99987 20.6801 9.99987C21.2267 9.99987 21.6801 10.4532 21.6801 10.9999V11.6665H22.4934C23.9201 11.6665 25.1601 12.9065 25.1601 14.3332C25.1601 14.7732 25.0401 15.1865 24.8534 15.5599C25.5467 16.0532 26.0001 16.8132 26.0001 17.6665C26.0001 19.1332 24.6934 20.3332 23.0934 20.3332Z"
+                            fill="white" />
+                        </svg>
+
+                        <div>
+                          asdf
+                        </div>
+                      </div>
+                    </div> -->
+
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+        </div>
+        <!-- <div class="content-backdrop fade"></div> -->
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Overlay -->
+  <div class="layout-overlay layout-menu-toggle"></div>
+  </div>
+  <!-- / Layout wrapper -->
+
+  <!-- Core JS -->
+  <!-- build:js assets/vendor/js/core.js -->
+  <script src="./assets/vendor/libs/jquery/jquery.js"></script>
+  <script src="./assets/vendor/libs/popper/popper.js"></script>
+  <script src="./assets/vendor/js/bootstrap.js"></script>
+  <script src="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+  <script src="./assets/vendor/js/menu.js"></script>
+  <!-- endbuild -->
+
+  <!-- Vendors JS -->
+  <script src="./assets/vendor/libs/apex-charts/apexcharts.js"></script>
+
+  <!-- Main JS -->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- Page JS -->
+  <script src="./assets/js/dashboards-analytics.js"></script>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+    integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+    integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="./phone-number-validation-master/build/js/intlTelInput.js"></script>
+
+  <script>
+    var input = document.querySelector('#phone');
+    window.intlTelInput(input, {})
+  </script>
+
+  <script>
+    var input = document.querySelector('#phone2');
+    window.intlTelInput(input, {})
+  </script>
+
+  <script>
+    var input = document.querySelector('#phone3');
+    window.intlTelInput(input, {})
+  </script>
+
+</body>
+
+</html>

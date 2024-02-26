@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="./assets/"
+  data-template="vertical-menu-template-free">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+  <title>My Exchange</title>
+
+  <meta name="description" content="" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon.ico" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/vendor/fonts/boxicons.css" />
+
+
+
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="./assets/vendor/css/core.css" class="template-customizer-core-css" />
+  <link rel="stylesheet" href="./assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+  <link rel="stylesheet" href="./assets/css/demo.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/mytrials.css" />
+
+  <!-- Vendors CSS -->
+  <link rel="stylesheet" href="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+  <link rel="stylesheet" href="./assets/vendor/libs/apex-charts/apex-charts.css" />
+  <!-- Page CSS -->
+  <!-- Helpers -->
+  <script src="./assets/vendor/js/helpers.js"></script>
+  <script src="./assets/js/config.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+  <!-- Layout wrapper -->
+  <div class="layout-wrapper layout-content-navbar">
+    <div class="layout-container">
+      <!-- Menu -->
+      <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme pt-3">
+        <div class="app-brand demo d-flex flex-column">
+          <div>
+            <a href="index.html" class="app-brand-link">
+              <span class="app-brand-logo demo"> <img src="./images/footer-logo.png" alt="" srcset=""></span>
+            </a>
+          </div>
+          <div>
+            <!-- <p class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</p> -->
+          </div>
+
+          <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+            <i class="bx bx-chevron-left bx-sm align-middle"></i>
+          </a>
+        </div>
+
+        <!-- <div class="menu-inner-shadow"></div> -->
+
+        <ul class="menu-inner py-1">
+          <!-- Dashboard -->
+          <li class="menu-item active">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">Dashboard</div>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">My Profile</div>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">Trailblazers</div>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">My Trails</div>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class="menu-icon tf-icons bx bx-dock-top"></i>
+              <div data-i18n="Account Settings">My Wallet Stored</div>
+            </a>
+            <ul class="menu-sub">
+              <li class="menu-item">
+                <a href="pages-account-settings-account.html" class="menu-link">
+                  <div data-i18n="Account">Plans & Pricing</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">Plans & Pricing </div>
+            </a>
+          </li>
+
+        </ul>
+
+        <img src="./images/sidebar-img.png" alt="" srcset="" class="img-fluid sidebar-img">
+      </aside>
+      <!-- / Menu -->
+
+
+      <!-- Layout container -->
+      <div class="layout-page">
+        <!-- Navbar -->
+
+        <div class="w-100 p-2" id="parent">
+          <nav
+            class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
+            id="layout-navbar">
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+              <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                <i class="bx bx-menu bx-sm"></i>
+              </a>
+            </div>
+            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+              <div class="navbar-nav align-items-center">
+                <div class="nav-item d-flex align-items-center">
+                  <h5 class="nav-title">My Exchanges</h5>
+                </div>
+              </div>
+
+              <ul class="navbar-nav flex-row align-items-center ms-auto me-3">
+                <i class="fa-regular fa-bell me-2" id="bell-icon" style="color: #ffffff;"></i>
+                <sup><img src="./assets/img/icons/noti.png" class="img img-fluid me-3" alt=""></sup>
+
+                
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+
+        <div class="container-fluid" id="nav-container-main">
+          <div class="row">
+            <div class="col-md-12 d-flex justify-content-between">
+
+            </div>
+          </div>
+
+
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="wrapper">
+              <div class="d-flex flex-column gap-3">
+                <div class="d-flex flex-row justify-content-between">
+                  <div class="mt-3">
+                    <h5 class="table-title-upper">My Exchanges</h5>
+                  </div> 
+                </div>
+                <div class="col-md-12 p-4 trials-bg">
+
+                  <div class="w-100 d-flex flex-column">
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                      <div class="d-flex justify-content-center align-items-center " style="background-color: #0E0F19;">
+                        <div class="d-flex flex-row">
+                          <span class="input-group-text rounded-0 border-0 bg-transparent" id="basic-addon1"><i
+                              class="fa fa-search"></i></span>
+                          <input type="text" class="form-control rounded-0 border-0 bg-transparent input-common"
+                            placeholder="Search for trail here" aria-label="Search" aria-describedby="basic-addon1">
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-center align-items-center mt-3 mt-md-0">
+                        <div class="btn-group btn-group-sm me-2 gap-2" role="group" aria-label="Example group">
+                          <a class="filter"
+                            style="background-color: #0E0F19 !important;border: 1px solid #1F2335; border-radius: 4px; padding: 10px 20px; color:white; cursor: pointer;"><img
+                              src="./assets/img/filter.png" alt=""> Filter</a>
+                          <a class="filter"
+                            style="background-color: #0E0F19 !important;border-radius: 4px; border: 1px solid #1F2335; padding: 10px 20px; color:white; cursor: pointer;"><img
+                              src="./assets/img/export.png" alt=""> Export</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead style="margin-bottom: 10px;">
+                          <tr>
+                            <th><input type="checkbox"></th>
+
+
+                            <th scope="col">
+                              <div>Icon<img src="./assets/img/swap.png" class="table-icon-swap"
+                                  style="width: 18px !important; height: 14px !important; margin-left: 5px !important;"
+                                  alt="Sort icon" />
+                              </div>
+                            </th>
+                            <th scope="col">
+                              <div>Name<img src="./assets/img/swap.png" class="table-icon-swap"
+                                  style="width: 18px !important; height: 14px !important; margin-left: 5px !important;"
+                                  alt="Sort icon" />
+                              </div>
+                            </th>
+                          
+                            <th scope="col">
+                              <div>Type<img src="./assets/img/swap.png" class="table-icon-swap"
+                                  style="width: 18px !important; height: 14px !important; margin-left: 5px !important;"
+                                  alt="Sort icon" />
+                              </div>
+                            </th>
+                            <th scope="col">
+                              <div>Trail Name<img src="./assets/img/swap.png" class="table-icon-swap"
+                                  style="width: 18px !important; height: 14px !important; margin-left: 5px !important;"
+                                  alt="Sort icon" />
+                              </div>
+                            </th>
+
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="65" height="22" viewBox="0 0 65 22" fill="none">
+                              <g clip-path="url(#clip0_277_6516)">
+                                <mask id="mask0_277_6516" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="65" height="22">
+                                  <path d="M0 0.90332H65V21.0975H0V0.90332Z" fill="white" />
+                                </mask>
+                                <g mask="url(#mask0_277_6516)">
+                                  <path
+                                    d="M25.4776 11.048C25.9667 10.7703 26.3579 10.4245 26.6432 10.0168C26.9673 9.55596 27.1388 9.00508 27.1335 8.44167C27.1335 7.35498 26.7271 6.50619 25.9263 5.91993C25.1349 5.33934 24.0463 5.0459 22.6895 5.0459H17.7836V17.6363H22.8858C24.3145 17.6363 25.4587 17.3044 26.286 16.6487C27.1196 15.9874 27.5431 15.0616 27.5431 13.896C27.5431 13.186 27.3437 12.5758 26.9518 12.0817C26.6003 11.6399 26.1049 11.2928 25.4776 11.048ZM20.4385 7.31522H22.4762C23.1155 7.31522 23.5976 7.43891 23.9113 7.68313C24.2205 7.92294 24.372 8.23973 24.372 8.64866C24.372 9.05886 24.2205 9.3908 23.9113 9.6325C23.5976 9.87609 23.1155 9.99978 22.4762 9.99978H20.4385V7.31522ZM24.2748 14.9404C23.9214 15.2238 23.3818 15.367 22.6719 15.367H20.4385V12.2861H22.6725C23.3818 12.2861 23.922 12.425 24.2767 12.6963C24.6282 12.9677 24.7986 13.3255 24.7986 13.7919C24.7986 14.2828 24.6276 14.6583 24.2748 14.9404ZM31.1307 8.22143H28.4575V17.6357H31.1301L31.1307 8.22143ZM57.5289 9.63818C57.101 9.13085 56.5617 8.72915 55.9531 8.46439C55.3309 8.18862 54.631 8.04852 53.8744 8.04852C52.9467 8.04852 52.1099 8.2593 51.3861 8.67454C50.6703 9.08193 50.0791 9.67667 49.6759 10.3948C49.2651 11.1206 49.0575 11.9611 49.0575 12.8945C49.0575 13.8285 49.2594 14.7246 49.657 15.461C50.0455 16.1887 50.6376 16.7873 51.3609 17.1839C52.091 17.5871 52.9486 17.7916 53.9104 17.7916C55.0905 17.7916 56.092 17.495 56.889 16.9087C57.6558 16.3452 58.1827 15.5507 58.4705 14.5548H55.7796C55.6382 14.8937 55.4388 15.1821 55.1529 15.3853C54.8153 15.6251 54.3792 15.7463 53.8567 15.7463C53.4036 15.7463 53.0149 15.6365 52.7019 15.4194C52.3882 15.2017 52.1484 14.8811 51.9907 14.464C51.8899 14.1899 51.8223 13.9047 51.7893 13.6145H58.5172L58.5304 13.5312C58.6503 12.7721 58.62 12.0526 58.4395 11.3932C58.2669 10.7488 57.9562 10.1498 57.5289 9.63755V9.63818ZM51.8323 11.8722C51.8731 11.6771 51.929 11.4855 51.9995 11.2992C52.1636 10.8763 52.4002 10.5513 52.7038 10.3342C53.006 10.1172 53.3822 10.008 53.8214 10.008C54.3723 10.008 54.8248 10.1866 55.1656 10.5381C55.4893 10.8725 55.6723 11.3294 55.7114 11.8715L51.8323 11.8722ZM31.1862 5.0459H28.402V7.31522H31.1862V5.0459ZM45.822 9.28983C45.5207 8.92198 45.1441 8.62289 44.7176 8.41265C44.2191 8.17095 43.6353 8.04852 42.9828 8.04852C42.1845 8.04852 41.4682 8.24604 40.8561 8.63352C40.244 9.02163 39.758 9.56939 39.4141 10.261C39.0702 10.9514 38.896 11.7617 38.896 12.6705C38.896 13.5792 39.079 14.3422 39.4412 15.037C39.8041 15.7343 40.3071 16.2896 40.9362 16.6885C41.566 17.0879 42.2848 17.2911 43.0724 17.2911C43.6669 17.2911 44.2102 17.1624 44.686 16.9081C45.0528 16.7149 45.3736 16.4447 45.6263 16.1161V17.1409C45.6263 17.7764 45.4597 18.2642 45.1316 18.5892C44.8022 18.9142 44.3011 19.0783 43.6423 19.0783C43.0743 19.0783 42.6281 18.9496 42.3158 18.6953C42.0602 18.487 41.8368 18.2144 41.785 17.6363H39.2077C39.2317 18.4454 39.469 18.99 39.8047 19.4677C40.1802 20.0022 40.7091 20.4206 41.378 20.7096C42.0393 20.9949 42.808 21.14 43.6599 21.14C45.0912 21.14 46.2303 20.7803 47.0456 20.0716C47.866 19.3591 48.2812 18.3614 48.2812 17.1069V8.22143H45.8226L45.822 9.28983ZM45.3518 13.9212C45.1969 14.2549 44.9499 14.5373 44.64 14.7353C44.3371 14.9246 43.971 15.0218 43.5533 15.0218C42.9475 15.0218 42.4773 14.8155 42.1144 14.392C41.7522 13.9698 41.5686 13.3905 41.5686 12.6698C41.5686 11.9491 41.7516 11.3698 42.1138 10.9476C42.4729 10.5299 42.9569 10.3178 43.5526 10.3178C44.149 10.3178 44.6753 10.5324 45.0457 10.9571C45.4193 11.3856 45.6087 11.9675 45.6087 12.6862C45.6087 13.1526 45.5222 13.5672 45.3518 13.9206V13.9212ZM65.0014 10.4737V8.22206H63.0722V5.0459H60.4173V8.22206H58.7696V10.4737H60.4173V14.1591C60.4173 16.2082 60.8212 17.714 63.3366 17.6673L64.9162 17.6357V15.526H64.1324C63.0141 15.526 63.0766 14.8742 63.0766 13.6631L63.0722 10.4743L65.0014 10.4737ZM38.2466 10.4737V8.22206H36.3175V5.0459H33.6626V8.22206H32.0142V10.4737H33.6613V14.1591C33.6613 16.2082 34.0652 17.714 36.5812 17.6673L38.1602 17.6357V15.526H37.3783C36.26 15.526 36.3219 14.8742 36.3219 13.6631L36.3175 10.4743L38.2466 10.4737ZM6.6642 7.31522H10.6734L14.7747 11.39C15.0416 11.6551 15.0429 12.0867 14.7772 12.353L9.51726 17.6395H5.38818L6.63707 16.4253L11.2211 11.8703L6.69513 7.31459"
+                                    fill="white" />
+                                  <path
+                                    d="M8.31133 11.8594H4.30341L0.201473 7.78462C0.137997 7.7216 0.0875716 7.64668 0.0530845 7.56415C0.0185974 7.48161 0.000725083 7.39309 0.000490619 7.30364C0.000256154 7.21419 0.0176641 7.12558 0.0517181 7.04286C0.0857721 6.96015 0.135804 6.88497 0.198949 6.82161L5.4589 1.53516H9.58861L8.34036 2.74933L3.75565 7.30438L8.2823 11.8594"
+                                    fill="white" />
+                                </g>
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_277_6516">
+                                  <rect width="65" height="20.1942" fill="white" transform="translate(0 0.90332)" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            </th>
+                           
+                            <td>
+                              Card
+                            </td>
+                            <td>
+                              Cold Wallet
+                            </td>
+                            <td>
+                              MCT 1
+                            </td>
+                          </tr>
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">
+                          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="34" height="34" rx="4" fill="#6CCE97" />
+                            <path
+                              d="M25.2498 19.415C24.9423 19.415 24.6873 19.67 24.6873 19.9775C24.6873 22.1975 23.1423 24.0575 21.0648 24.545L21.2673 24.2075C21.4248 23.9375 21.3423 23.5925 21.0723 23.435C20.8098 23.2775 20.4573 23.36 20.2998 23.63L19.5123 24.9425C19.4073 25.115 19.4073 25.3325 19.5048 25.505C19.6023 25.685 19.7898 25.79 19.9923 25.79C23.1948 25.79 25.8048 23.18 25.8048 19.9775C25.8123 19.67 25.5573 19.415 25.2498 19.415Z"
+                              fill="white" />
+                            <path
+                              d="M14 8.16504C10.7975 8.16504 8.1875 10.775 8.1875 13.9775C8.1875 14.285 8.4425 14.54 8.75 14.54C9.0575 14.54 9.3125 14.285 9.3125 13.9775C9.3125 11.7575 10.8575 9.89754 12.935 9.41004L12.7325 9.74754C12.575 10.0175 12.6575 10.3625 12.9275 10.52C13.19 10.6775 13.5425 10.595 13.7 10.325L14.4875 9.01254C14.585 8.84004 14.5925 8.63004 14.4875 8.45004C14.39 8.27754 14.2025 8.16504 14 8.16504Z"
+                              fill="white" />
+                            <path
+                              d="M24.1252 14.5025C24.1252 16.8125 22.4452 18.7175 20.2477 19.07C20.2477 19.0625 20.2477 19.0625 20.2477 19.055C20.0302 16.2575 17.7652 13.9775 14.9302 13.7525C15.2827 11.555 17.1877 9.875 19.4977 9.875C22.0552 9.875 24.1252 11.945 24.1252 14.5025Z"
+                              fill="white" />
+                            <path
+                              d="M15.3573 18.6502C15.3573 18.5377 15.2298 18.3652 15.0723 18.3652H13.5273V18.9277H15.0723C15.2298 18.9352 15.3573 18.8077 15.3573 18.6502Z"
+                              fill="white" />
+                            <path
+                              d="M15.3723 20.0596H15.0723H13.5273V20.6221H15.3798C15.6198 20.6221 15.7848 20.4721 15.7848 20.3371C15.7848 20.2021 15.6123 20.0596 15.3723 20.0596Z"
+                              fill="white" />
+                            <path
+                              d="M19.1225 19.1373C18.95 16.8648 17.135 15.0498 14.8625 14.8773C14.7425 14.8698 14.63 14.8623 14.5025 14.8623C11.945 14.8623 9.875 16.9323 9.875 19.4973C9.875 22.0548 11.945 24.1248 14.5025 24.1248C17.06 24.1248 19.1375 22.0548 19.1375 19.4973C19.1375 19.3698 19.13 19.2573 19.1225 19.1373ZM15.3725 21.7473H14.8775V22.0323C14.8775 22.3398 14.6225 22.5948 14.315 22.5948C14.0075 22.5948 13.7525 22.3398 13.7525 22.0323V21.7473H12.965C12.6575 21.7473 12.4025 21.4923 12.4025 21.1848V19.4973V17.8098C12.4025 17.5023 12.6575 17.2473 12.965 17.2473H13.7525V16.9623C13.7525 16.6548 14.0075 16.3998 14.315 16.3998C14.6225 16.3998 14.8775 16.6548 14.8775 16.9623V17.2473H15.0725C15.8225 17.2473 16.4825 17.9073 16.4825 18.6573C16.4825 18.8748 16.43 19.0773 16.34 19.2648C16.685 19.5198 16.9025 19.9098 16.9025 20.3448C16.9025 21.1173 16.22 21.7473 15.3725 21.7473Z"
+                              fill="white" />
+                          </svg>
+
+                            </th>
+                            
+                            <td>
+                              Card
+                            </td>
+                            <td>
+                              Cold Wallet
+                            </td>
+                            <td>
+                              MCT 2
+                            </td>
+                          </tr>
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">
+                             <img src="./assets/img/binance.png" class="img img-fluid" alt="">
+                            </th>
+                            
+                            <td>
+                              Card
+                            </td>
+                            <td>
+                              Cold Wallet
+                            </td>
+                            <td>
+                              MCT 3
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+                    <div class="d-flex flex-row justify-content-center justify-content-md-between mt-4 mb-3">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-row pagination-icon me-3">
+                          <span class="fa-solid fa-chevron-left " style="color: #ffffff;"></span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon-active">
+                          <span class="fa-solid " style="color: #ffffff;">1</span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon">
+                          <span class="fa-solid " style="color: #ffffff;">2</span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon">
+                          <span class="fa-solid " style="color: #ffffff;">3</span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon">
+                          <span class="fa-solid " style="color: #ffffff;">4</span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon">
+                          <span class="fa-solid " style="color: #ffffff;">5</span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon ms-3">
+                          <span class="fa-solid fa-chevron-right " style="color: #ffffff;"></span>
+                        </div>
+                      </div>
+
+
+                      <div class="d-flex justify-content-center align-items-center d-none d-md-flex d-lg-flex">
+                        <span>Showing 6 of 50 entries</span>
+                        <div class="btn-group btn-group-sm ms-3 me-2 gap-2" role="group" aria-label="Example group">
+                          <a class="filter"
+                            style="background-color: #0E0F19 !important;border: 1px solid #1F2335; border-radius: 4px; padding: 10px 20px; color:white; cursor: pointer;">
+                            <span class="me-2">Show 10</span>
+                            <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+
+
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <!-- <div class="content-backdrop fade"></div> -->
+        </div>
+        <!-- Content wrapper -->
+      </div>
+      <!-- / Layout page -->
+    </div>
+
+    <!-- Overlay -->
+    <div class="layout-overlay layout-menu-toggle"></div>
+  </div>
+  <!-- / Layout wrapper -->
+
+  <!-- Core JS -->
+  <!-- build:js assets/vendor/js/core.js -->
+  <script src="./assets/vendor/libs/jquery/jquery.js"></script>
+  <script src="./assets/vendor/libs/popper/popper.js"></script>
+  <script src="./assets/vendor/js/bootstrap.js"></script>
+  <script src="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+  <script src="./assets/vendor/js/menu.js"></script>
+  <!-- endbuild -->
+
+  <!-- Vendors JS -->
+  <script src="./assets/vendor/libs/apex-charts/apexcharts.js"></script>
+
+  <!-- Main JS -->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- Page JS -->
+  <script src="./assets/js/dashboards-analytics.js"></script>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+    integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+    integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>

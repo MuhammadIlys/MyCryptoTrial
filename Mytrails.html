@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en" class="light-style layout-menu-fixed" dir="ltr" data-theme="theme-default" data-assets-path="./assets/"
+  data-template="vertical-menu-template-free">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
+
+  <title>My Trails</title>
+
+  <meta name="description" content="" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="./assets/img/favicon/favicon.ico" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./assets/vendor/fonts/boxicons.css" />
+
+
+
+  <!-- Core CSS -->
+  <link rel="stylesheet" href="./assets/vendor/css/core.css" class="template-customizer-core-css" />
+  <link rel="stylesheet" href="./assets/vendor/css/theme-default.css" class="template-customizer-theme-css" />
+  <link rel="stylesheet" href="./assets/css/demo.css" />
+  <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="./assets/css/mytrials.css" />
+
+  <!-- Vendors CSS -->
+  <link rel="stylesheet" href="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
+  <link rel="stylesheet" href="./assets/vendor/libs/apex-charts/apex-charts.css" />
+  <!-- Page CSS -->
+  <!-- Helpers -->
+  <script src="./assets/vendor/js/helpers.js"></script>
+  <script src="./assets/js/config.js"></script>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+</head>
+
+<body>
+  <!-- Layout wrapper -->
+  <div class="layout-wrapper layout-content-navbar">
+    <div class="layout-container">
+      <!-- Menu -->
+      <aside id="layout-menu" class="layout-menu menu-vertical menu bg-menu-theme pt-3">
+        <div class="app-brand demo d-flex flex-column">
+          <div>
+            <a href="index.html" class="app-brand-link">
+              <span class="app-brand-logo demo"> <img src="./images/footer-logo.png" alt="" srcset=""></span>
+            </a>
+          </div>
+          <div>
+            <!-- <p class="app-brand-text demo menu-text fw-bolder ms-2">Sneat</p> -->
+          </div>
+
+          <a href="javascript:void(0);" class="layout-menu-toggle menu-link text-large ms-auto d-block d-xl-none">
+            <i class="bx bx-chevron-left bx-sm align-middle"></i>
+          </a>
+        </div>
+
+        <!-- <div class="menu-inner-shadow"></div> -->
+
+        <ul class="menu-inner py-1">
+          <!-- Dashboard -->
+          <li class="menu-item active">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">Dashboard</div>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">My Profile</div>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">Trailblazers</div>
+            </a>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">My Trails</div>
+            </a>
+          </li>
+          <li class="menu-item">
+            <a href="javascript:void(0);" class="menu-link menu-toggle">
+              <i class="menu-icon tf-icons bx bx-dock-top"></i>
+              <div data-i18n="Account Settings">My Wallet Stored</div>
+            </a>
+            <ul class="menu-sub">
+              <li class="menu-item">
+                <a href="pages-account-settings-account.html" class="menu-link">
+                  <div data-i18n="Account">Plans & Pricing</div>
+                </a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="menu-item">
+            <a href="index.html" class="menu-link">
+              <i class="menu-icon tf-icons bx bx-home-circle"></i>
+              <div data-i18n="Analytics">Plans & Pricing </div>
+            </a>
+          </li>
+
+        </ul>
+
+        <img src="./images/sidebar-img.png" alt="" srcset="" class="img-fluid sidebar-img">
+      </aside>
+      <!-- / Menu -->
+
+
+      <!-- Layout container -->
+      <div class="layout-page">
+        <!-- Navbar -->
+
+        <div class="w-100 p-2" id="parent">
+          <nav
+            class="layout-navbar container-xxl navbar navbar-expand-xl navbar-detached align-items-center bg-navbar-theme"
+            id="layout-navbar">
+            <div class="layout-menu-toggle navbar-nav align-items-xl-center me-3 me-xl-0 d-xl-none">
+              <a class="nav-item nav-link px-0 me-xl-4" href="javascript:void(0)">
+                <i class="bx bx-menu bx-sm"></i>
+              </a>
+            </div>
+            <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
+              <div class="navbar-nav align-items-center">
+                <div class="nav-item d-flex align-items-center">
+                  <h5 class="nav-title">My Trails</h5>
+                </div>
+              </div>
+
+              <ul class="navbar-nav flex-row align-items-center ms-auto me-3">
+                <i class="fa-regular fa-bell me-2" id="bell-icon" style="color: #ffffff;"></i>
+                <sup><img src="./assets/img/icons/noti.png" class="img img-fluid me-3" alt=""></sup>
+
+                <li>
+                  <div class="btn-group btn-group-sm ms-3 me-2 gap-2" id="new-video" role="group"
+                    aria-label="Example group">
+
+                    <a class="new-trail d-none d-md-flex d-lg-flex" style="display: flex;
+                                      padding: 11px 16px;
+                                      justify-content: center;
+                                      align-items: center;
+                                      gap: 10px;border-radius: 4px;
+                                      background: #012D60 !important;
+                                      color: white;
+                                      ">
+                      <span class="me-2"><img src="./assets/img/play.png" class="img img-fluid my-auto me-2"
+                          alt="">Record a
+                        Video</span>
+                    </a>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+
+
+        <div class="container-fluid" id="nav-container-main">
+          <div class="row">
+            <div class="col-md-12 d-flex justify-content-between">
+
+            </div>
+          </div>
+
+
+
+          <!-- Content wrapper -->
+          <div class="content-wrapper">
+            <!-- Content -->
+
+            <div class="wrapper">
+              <div class="d-flex flex-column gap-3">
+                <div class="d-flex flex-row justify-content-between">
+                  <div class="mt-3">
+                    <h5 class="table-title-upper">My Existing Trails</h5>
+                  </div>
+                  <div class="my-auto">
+                    <div class="btn-group btn-group-sm ms-3 me-2 gap-2" role="group" aria-label="Example group">
+                      <a class="new-trail"
+                        style="padding: 11px 16px;justify-content: center; align-items: center; border-radius: 4px; background-color: #9747FF !important; color: white;">
+                        <span class="me-2">Create New Trail</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-12 p-4 trials-bg">
+
+                  <div class="w-100 d-flex flex-column">
+
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-3">
+                      <div class="d-flex justify-content-center align-items-center " style="background-color: #0E0F19;">
+                        <div class="d-flex flex-row">
+                          <span class="input-group-text rounded-0 border-0 bg-transparent" id="basic-addon1"><i
+                              class="fa fa-search"></i></span>
+                          <input type="text" class="form-control rounded-0 border-0 bg-transparent input-common"
+                            placeholder="Search for trail here" aria-label="Search" aria-describedby="basic-addon1">
+                        </div>
+                      </div>
+                      <div class="d-flex justify-content-center align-items-center mt-3 mt-md-0">
+                        <div class="btn-group btn-group-sm me-2 gap-2" role="group" aria-label="Example group">
+                          <a class="filter"
+                            style="background-color: #0E0F19 !important;border: 1px solid #1F2335; border-radius: 4px; padding: 10px 20px; color:white; cursor: pointer;"><img
+                              src="./assets/img/filter.png" alt=""> Filter</a>
+                          <a class="filter"
+                            style="background-color: #0E0F19 !important;border-radius: 4px; border: 1px solid #1F2335; padding: 10px 20px; color:white; cursor: pointer;"><img
+                              src="./assets/img/export.png" alt=""> Export</a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                    <div class="table-responsive">
+                      <table class="table">
+                        <thead style="margin-bottom: 10px;">
+                          <tr>
+                            <th><input type="checkbox"></th>
+
+
+                            <th scope="col">
+                              <div>Trail name<img src="./assets/img/swap.png" class="table-icon-swap"
+                                  style="width: 18px !important; height: 14px !important; margin-left: 5px !important;"
+                                  alt="Sort icon" />
+                              </div>
+                            </th>
+                            <th scope="col">
+                              <div>Created date<img src="./assets/img/swap.png" class="table-icon-swap"
+                                  style="width: 18px !important; height: 14px !important; margin-left: 5px !important;"
+                                  alt="Sort icon" />
+                              </div>
+                            </th>
+                            <th scope="col">
+                              <div>Beneficiary<img src="./assets/img/swap.png" class="table-icon-swap"
+                                  style="width: 18px !important; height: 14px !important; margin-left: 5px !important;"
+                                  alt="Sort icon" />
+                              </div>
+                            </th>
+                            <th scope="col">
+                              <div>Type<img src="./assets/img/swap.png" class="table-icon-swap"
+                                  style="width: 18px !important; height: 14px !important; margin-left: 5px !important;"
+                                  alt="Sort icon" />
+                              </div>
+                            </th>
+                            <th scope="col">
+                              <div>Media<img src="./assets/img/swap.png" class="table-icon-swap"
+                                  style="width: 18px !important; height: 14px !important; margin-left: 5px !important;"
+                                  alt="Sort icon" />
+                              </div>
+                            </th>
+                            <th scope="col">
+                              <div>Action<img src="./assets/img/swap.png" class="table-icon-swap"
+                                  style="width: 18px !important; height: 14px !important; margin-left: 5px !important;"
+                                  alt="Sort icon" />
+                              </div>
+                            </th>
+
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">Occasional</th>
+                            <td>
+                              12/3/2023
+                            </td>
+                            <td>
+                              John
+                            </td>
+                            <td>
+                              KeepKe
+                            </td>
+                            <td>
+                              Video
+                            </td>
+                            <td>
+                              <a class="table-action">Action</a>
+                            </td>
+                          </tr>
+
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">Occasional</th>
+                            <td>
+                              12/3/2023
+                            </td>
+                            <td>
+                              John
+                            </td>
+                            <td>
+                              KeepKe
+                            </td>
+                            <td>
+                              Video
+                            </td>
+                            <td>
+                              <a class="table-action">Action</a>
+                            </td>
+                          </tr>
+
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">Occasional</th>
+                            <td>
+                              12/3/2023
+                            </td>
+                            <td>
+                              John
+                            </td>
+                            <td>
+                              KeepKe
+                            </td>
+                            <td>
+                              Video
+                            </td>
+                            <td>
+                              <a class="table-action">Action</a>
+                            </td>
+                          </tr>
+
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">Occasional</th>
+                            <td>
+                              12/3/2023
+                            </td>
+                            <td>
+                              John
+                            </td>
+                            <td>
+                              KeepKe
+                            </td>
+                            <td>
+                              Video
+                            </td>
+                            <td>
+                              <a class="table-action">Action</a>
+                            </td>
+                          </tr>
+
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">Occasional</th>
+                            <td>
+                              12/3/2023
+                            </td>
+                            <td>
+                              John
+                            </td>
+                            <td>
+                              KeepKe
+                            </td>
+                            <td>
+                              Video
+                            </td>
+                            <td>
+                              <a class="table-action">Action</a>
+                            </td>
+                          </tr>
+
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">Occasional</th>
+                            <td>
+                              12/3/2023
+                            </td>
+                            <td>
+                              John
+                            </td>
+                            <td>
+                              KeepKe
+                            </td>
+                            <td>
+                              Video
+                            </td>
+                            <td>
+                              <a class="table-action">Action</a>
+                            </td>
+                          </tr>
+
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">Occasional</th>
+                            <td>
+                              12/3/2023
+                            </td>
+                            <td>
+                              John
+                            </td>
+                            <td>
+                              KeepKe
+                            </td>
+                            <td>
+                              Video
+                            </td>
+                            <td>
+                              <a class="table-action">Action</a>
+                            </td>
+                          </tr>
+
+                          <tr class="mt-4">
+                            <th><input type="checkbox"></th>
+                            <th scope="row">Occasional</th>
+                            <td>
+                              12/3/2023
+                            </td>
+                            <td>
+                              John
+                            </td>
+                            <td>
+                              KeepKe
+                            </td>
+                            <td>
+                              Video
+                            </td>
+                            <td>
+                              <a class="table-action">Action</a>
+                            </td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+                    </div>
+
+
+
+                    <div class="d-flex flex-row justify-content-center justify-content-md-between mt-4 mb-3">
+                      <div class="d-flex justify-content-center align-items-center">
+                        <div class="d-flex flex-row pagination-icon me-3">
+                          <span class="fa-solid fa-chevron-left " style="color: #ffffff;"></span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon-active">
+                          <span class="fa-solid " style="color: #ffffff;">1</span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon">
+                          <span class="fa-solid " style="color: #ffffff;">2</span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon">
+                          <span class="fa-solid " style="color: #ffffff;">3</span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon">
+                          <span class="fa-solid " style="color: #ffffff;">4</span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon">
+                          <span class="fa-solid " style="color: #ffffff;">5</span>
+                        </div>
+
+                        <div class="d-flex flex-row pagination-icon ms-3">
+                          <span class="fa-solid fa-chevron-right " style="color: #ffffff;"></span>
+                        </div>
+                      </div>
+
+
+                      <div class="d-flex justify-content-center align-items-center d-none d-md-flex d-lg-flex">
+                        <span>Showing 6 of 50 entries</span>
+                        <div class="btn-group btn-group-sm ms-3 me-2 gap-2" role="group" aria-label="Example group">
+                          <a class="filter"
+                            style="background-color: #0E0F19 !important;border: 1px solid #1F2335; border-radius: 4px; padding: 10px 20px; color:white; cursor: pointer;">
+                            <span class="me-2">Show 10</span>
+                            <i class="fa-solid fa-chevron-down" style="color: #ffffff;"></i>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+
+
+                  </div>
+
+
+                </div>
+
+
+              </div>
+            </div>
+          </div>
+          <!-- <div class="content-backdrop fade"></div> -->
+        </div>
+        <!-- Content wrapper -->
+      </div>
+      <!-- / Layout page -->
+    </div>
+
+    <!-- Overlay -->
+    <div class="layout-overlay layout-menu-toggle"></div>
+  </div>
+  <!-- / Layout wrapper -->
+
+  <!-- Core JS -->
+  <!-- build:js assets/vendor/js/core.js -->
+  <script src="./assets/vendor/libs/jquery/jquery.js"></script>
+  <script src="./assets/vendor/libs/popper/popper.js"></script>
+  <script src="./assets/vendor/js/bootstrap.js"></script>
+  <script src="./assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+
+  <script src="./assets/vendor/js/menu.js"></script>
+  <!-- endbuild -->
+
+  <!-- Vendors JS -->
+  <script src="./assets/vendor/libs/apex-charts/apexcharts.js"></script>
+
+  <!-- Main JS -->
+  <script src="./assets/js/main.js"></script>
+
+  <!-- Page JS -->
+  <script src="./assets/js/dashboards-analytics.js"></script>
+
+  <!-- Place this tag in your head or just before your close body tag. -->
+  <script async defer src="https://buttons.github.io/buttons.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+    integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"
+    integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+</body>
+
+</html>
